@@ -1,0 +1,3 @@
+load(":public_api_guard.bzl", "generate_targets")
+
+generate_targets(glob(["**/*.d.ts"]))
